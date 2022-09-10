@@ -1,0 +1,25 @@
+footer {
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+.footer_logo {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: inline-block;
+  letter-spacing: 0.1rem;
+}
+.footer_container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.footer_container a {
+  display: flex;
+  padding: 0.8rem;
+}
+.footer_copyright {
+}

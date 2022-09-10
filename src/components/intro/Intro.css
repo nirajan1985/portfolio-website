@@ -1,0 +1,88 @@
+.intro_container {
+  padding-top: 3rem;
+  background: url(/src/img/nirajan.jpg) center top;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50.2rem;
+  background-origin: content-box;
+  color: white;
+}
+.intro_container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 23rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  row-gap: 0.5rem;
+}
+
+.i-name {
+  font-size: 4rem;
+}
+.i-title {
+  height: 3rem;
+  overflow: hidden;
+}
+.i-title-item {
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-title-wrapper {
+  height: 100%;
+  animation: move 4s ease-in-out infinite alternate;
+}
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.intro_image {
+  overflow: hidden;
+}
+
+.i-desc {
+  text-align: justify;
+  line-height: 2;
+}
+@media screen and (max-width: 400px) {
+  .intro_container {
+    height: 40.2rem;
+    padding-top: 3.5rem;
+  }
+  .intro_container-left {
+    margin-top: 17rem;
+  }
+  .i-name {
+    font-size: 2.1rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .intro_container {
+    height: 60.2rem;
+    padding-top: 2.5rem;
+  }
+  .intro_container-left {
+    margin-top: 29rem;
+  }
+  .i-desc {
+    font-size: 1.5rem;
+  }
+}

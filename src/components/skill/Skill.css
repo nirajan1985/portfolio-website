@@ -1,0 +1,26 @@
+#skills {
+  background-color: white;
+}
+.skills_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skills_container-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 0.8rem;
+}
+.skills_container-item img {
+  width: 108px;
+}
+
+@media screen and (max-width: 600px) {
+  .skills_container-item img {
+    width: 70px;
+  }
+}

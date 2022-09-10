@@ -1,0 +1,8 @@
+#certificate {
+  background-color: blanchedalmond;
+}
+.certificate_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

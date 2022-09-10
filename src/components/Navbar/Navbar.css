@@ -1,0 +1,81 @@
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #59b256;
+  color: white;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  padding: 0 4rem;
+  z-index: 1;
+}
+.logo {
+  font-size: 28px;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+
+.takeaway,
+.bord,
+.meny,
+.gandhi,
+.kontakt {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #471818;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+
+  .takeaway,
+  .bord,
+  .meny,
+  .gandhi,
+  .kontakt {
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #59b256;
+    border: none;
+    outline: none;
+    right: 2rem;
+  }
+  .nav_container {
+    padding: 0 2rem;
+  }
+}
