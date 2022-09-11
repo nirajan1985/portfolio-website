@@ -21,7 +21,7 @@ const ProjectHtml = () => {
                 <a className="btn" href={item.demo_link} target="_blank">
                   Demo
                 </a>
-                <a className="btn" href={item.github_link} target="_blank">
+                <a className="btn" href={item.code_link} target="_blank">
                   Code
                 </a>
               </div>

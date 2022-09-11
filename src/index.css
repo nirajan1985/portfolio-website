@@ -36,9 +36,10 @@ section h1 {
   padding-top: 1.5rem;
 }
 .btn {
-  width: max-content;
+  width: 6.3rem;
+  text-align: center;
   display: inline-block;
-  padding: 0.75rem 1.2rem;
+  padding: 0.3rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid black;

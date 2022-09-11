@@ -17,7 +17,7 @@ const Intro = () => {
         </div>
         <p className="i-desc">
           Hi, I am a passionate, self-taught React developer looking for
-          entry-level job position or internship opportunities.
+          entry-level job or any internship opportunities.
         </p>
       </div>
     </div>

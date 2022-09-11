@@ -21,6 +21,7 @@
 
 .i-name {
   font-size: 4rem;
+  color: rgb(249, 248, 246);
 }
 .i-title {
   height: 3rem;
@@ -60,20 +61,26 @@
 
 .i-desc {
   text-align: justify;
-  line-height: 2;
+  line-height: 1.5;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
+  .i-title-item {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 420px) {
   .intro_container {
     height: 40.2rem;
     padding-top: 3.5rem;
   }
   .intro_container-left {
-    margin-top: 17rem;
+    margin-top: 16rem;
   }
   .i-name {
     font-size: 2.1rem;
   }
 }
+
 @media screen and (min-width: 1600px) {
   .intro_container {
     height: 60.2rem;
