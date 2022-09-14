@@ -15,10 +15,11 @@ const Intro = () => {
             <div className="i-title-item">Tech Student</div>
           </div>
         </div>
-        {/* <p className="i-desc">
+        <p className="i-desc">
           Hi, I am a passionate, selftaught React developer looking for
           entry-level job or any internship opportunities.
-        </p> */}
+        </p>{" "}
+        *
       </div>
     </div>
   );
