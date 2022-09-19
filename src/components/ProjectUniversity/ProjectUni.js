@@ -5,7 +5,7 @@ import Udata from "./ProjectUniData";
 const ProjectUni = () => {
   return (
     <section>
-      <h1 className="p-heading">University Projects</h1>
+      <h1 className="p-heading">Universitetsprosjekter</h1>
 
       <div className="container prouni_container">
         {Udata.map((item) => {

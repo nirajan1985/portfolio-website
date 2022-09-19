@@ -8,7 +8,7 @@ const Intro = () => {
         <h1 className="i-name">Nirajan Karki</h1>
         <div className="i-title">
           <div className="i-title-wrapper">
-            <div className="i-title-item"> Developer</div>
+            <div className="i-title-item"> Utvikler</div>
             <div className="i-title-item">Frontend</div>
             <div className="i-title-item">React</div>
             <div className="i-title-item">Javascript</div>
@@ -16,8 +16,8 @@ const Intro = () => {
           </div>
         </div>
         <p className="i-desc">
-          Hi, I am a passionate, selftaught React developer looking for
-          entry-level job or any internship opportunities.
+          Hei jeg er en selvlært frontend-utvikler som ser etter junior frontend
+          jobb eller praksismuligheter.
         </p>
       </div>
     </div>

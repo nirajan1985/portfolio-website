@@ -20,11 +20,7 @@
   width: 75%;
 }
 
-.takeaway,
-.bord,
-.meny,
-.gandhi,
-.kontakt {
+ul a {
   text-decoration: none;
   color: white;
   font-size: 18px;
@@ -52,11 +48,7 @@
     width: 100%;
   }
 
-  .takeaway,
-  .bord,
-  .meny,
-  .gandhi,
-  .kontakt {
+  ul a {
     color: white;
     text-align: center;
     padding: 32px;

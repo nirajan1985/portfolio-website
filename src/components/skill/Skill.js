@@ -5,7 +5,7 @@ import Sdata from "./SkillData";
 const Skill = () => {
   return (
     <section id="skills">
-      <h1>Skills</h1>
+      <h1>Ferdigheter</h1>
 
       <div className="container skills_container">
         {Sdata.map((item, index) => {

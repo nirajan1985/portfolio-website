@@ -5,7 +5,7 @@ import Hdata from "./ProjectHtmlData";
 const ProjectHtml = () => {
   return (
     <section>
-      <h1 className="p-heading">HTML & CSS Projects</h1>
+      <h1 className="p-heading">HTML & CSS Prosjekter</h1>
 
       <div className="container prohtml_container">
         {Hdata.map((item) => {

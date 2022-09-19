@@ -22,7 +22,7 @@ const Data = [
     image: r3,
     title: "Currency Converter",
     demo_link: "https://mycurrency-converter.vercel.app/",
-    github_link: "https://github.com/nirajan1985/currency_converter",
+    github_link: "https://github.com/nirajan1985/currencyconverter",
   },
 ];
 

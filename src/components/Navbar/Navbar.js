@@ -13,31 +13,29 @@ const Navbar = () => {
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setIsMobile(false)}
       >
-        <a href="#" className="takeaway">
+        <a href="#">
           <li>HOME</li>
         </a>
-        <a href="#project" className="takeaway">
-          <li>PROJECT</li>
+        <a href="#project">
+          <li>PROSJEKT</li>
         </a>
-        <a href="#certificate" className="takeaway">
-          <li>CERTIFICATE</li>
+        <a href="#certificate">
+          <li>SERTIFISERING</li>
         </a>
-        <a href="#skills" className="takeaway">
-          <li>SKILLS</li>
+        <a href="#skills">
+          <li>FERDIGHETER</li>
         </a>
-        <a href="#contact" className="takeaway">
-          <li>CONTACT</li>
+        <a href="#contact">
+          <li>KONTAKT</li>
         </a>
       </ul>
 
-      {
-        <button
-          className="mobile-menu-icon"
-          onClick={() => setIsMobile(!isMobile)}
-        >
-          {isMobile ? <FaTimes /> : <FaBars />}
-        </button>
-      }
+      <button
+        className="mobile-menu-icon"
+        onClick={() => setIsMobile(!isMobile)}
+      >
+        {isMobile ? <FaTimes /> : <FaBars />}
+      </button>
     </nav>
   );
 };

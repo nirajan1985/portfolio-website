@@ -5,7 +5,7 @@ import Sdata from "./AlsoSkillData";
 const AlsoSkill = () => {
   return (
     <section id="alsoskill">
-      <h4 className="heading">Also familiar with...</h4>
+      <h4 className="heading">Også kjent med...</h4>
 
       <div className="container also_container">
         {Sdata.map((item, index) => {
