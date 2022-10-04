@@ -15,10 +15,10 @@ const Intro = () => {
             <div className="i-title-item">Tech Student</div>
           </div>
         </div>
-        <p className="i-desc">
+        {/* <p className="i-desc">
           Hei jeg er en selvlært frontend-utvikler som ser etter junior frontend
           jobb eller praksismuligheter.
-        </p>
+        </p> */}
       </div>
     </div>
   );

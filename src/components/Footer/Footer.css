@@ -10,6 +10,7 @@ footer {
   margin-bottom: 1rem;
   display: inline-block;
   letter-spacing: 0.1rem;
+  color: black;
 }
 .footer_container {
   display: flex;
@@ -20,6 +21,4 @@ footer {
 .footer_container a {
   display: flex;
   padding: 0.8rem;
-}
-.footer_copyright {
 }
