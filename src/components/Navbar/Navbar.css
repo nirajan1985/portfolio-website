@@ -41,7 +41,7 @@ ul a {
     list-style: none;
     background-color: #471818;
     left: 0;
-    top: 75px;
+    top: 60px;
     transition: all 0.5s ease-out;
     width: 100%;
   }
@@ -68,8 +68,11 @@ ul a {
     padding: 0 2rem;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 360px) {
   .logo {
-    display: none;
+    font-size: 20px;
+  }
+  .mobile-menu-icon {
+    font-size: 20px;
   }
 }
