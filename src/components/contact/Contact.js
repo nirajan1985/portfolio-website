@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
