@@ -14,14 +14,15 @@
 }
 
 .prouni_item h3 {
-  margin: 1.2rem 0 2rem;
-  padding-left: 0.5rem;
+	min-height: 5rem;
+	text-align: center;
+	margin-top: 2.5rem;
 }
 
 .prouni_btns {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 2rem;
   margin-bottom: 1.5rem;
   padding-left: 0.5rem;
