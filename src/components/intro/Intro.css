@@ -56,14 +56,6 @@
   }
 }
 
-.intro_image {
-  overflow: hidden;
-}
-
-.i-desc {
-  text-align: justify;
-  line-height: 1.5;
-}
 @media screen and (max-width: 320px) {
   .i-title-item {
     font-size: 1.7rem;

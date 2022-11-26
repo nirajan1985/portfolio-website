@@ -18,10 +18,20 @@ const Project = () => {
               <h3>{item.title}</h3>
 
               <div className="portfolio_btns">
-                <a className="btn" href={item.demo_link} target="_blank">
+                <a
+                  className="btn"
+                  href={item.demo_link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Demo
                 </a>
-                <a className="btn" href={item.github_link} target="_blank">
+                <a
+                  className="btn"
+                  href={item.github_link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code
                 </a>
               </div>

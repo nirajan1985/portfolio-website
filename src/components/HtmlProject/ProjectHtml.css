@@ -17,9 +17,9 @@ section {
 }
 
 .prohtml_item h3 {
-	min-height: 5rem;
-	text-align: center;
-	margin-top: 2.5rem;
+  min-height: 5rem;
+  text-align: center;
+  margin-top: 2.5rem;
 }
 
 .prohtml_btns {
@@ -28,5 +28,4 @@ section {
   justify-content: center;
   gap: 2rem;
   margin-bottom: 1.5rem;
-  padding-left: 0.5rem;
 }

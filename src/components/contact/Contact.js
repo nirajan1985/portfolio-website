@@ -31,7 +31,11 @@ const Contact = () => {
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>nirajankarki1985@gmail.com</h5>
-            <a href="mailto:nirajankarki1985@gmail.com" target="_blank">
+            <a
+              href="mailto:nirajankarki1985@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send an Email
             </a>
           </article>
@@ -40,7 +44,7 @@ const Contact = () => {
             <FaMobileAlt className="contact_option-icon" />
             <h4>Mobile</h4>
             <h5>+47 93951099</h5>
-            <a href="tel:+4793951099" target="_blank">
+            <a href="tel:+4793951099" target="_blank" rel="noreferrer">
               Call me
             </a>
           </article>
@@ -49,7 +53,11 @@ const Contact = () => {
             <RiMessengerLine className="contact_option-icon" />
             <h4>Messenger</h4>
             <h5>nirajankarki</h5>
-            <a href="https://m.me/nirajan.karki.33" target="_blank">
+            <a
+              href="https://m.me/nirajan.karki.33"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>

@@ -18,7 +18,12 @@ const ProjectUni = () => {
               <h3>{item.title}</h3>
 
               <div className="prouni_btns">
-                <a className="btn" href={item.code_link} target="_blank">
+                <a
+                  className="btn"
+                  href={item.code_link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code
                 </a>
               </div>
