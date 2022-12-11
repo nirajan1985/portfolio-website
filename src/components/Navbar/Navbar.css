@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
-  position: relative;
-  width: 100%;
   padding: 0 4rem;
+  height: 60px;
+  position: fixed;
+  width: 100%;
   z-index: 1;
+  background-color: #59b256;
 }
 .logo {
   font-size: 28px;
@@ -72,6 +73,7 @@ ul a {
   .logo {
     font-size: 20px;
   }
+
   .mobile-menu-icon {
     font-size: 20px;
   }
