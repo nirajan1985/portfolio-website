@@ -5,7 +5,7 @@ import Data from "./ProjectData";
 const Project = () => {
   return (
     <section id="project">
-      <h1 className="p-heading">React Prosjekter</h1>
+      <h1 className="p-heading">Prosjekter</h1>
 
       <div className="container portfolio_container">
         {Data.map((item) => {
@@ -16,6 +16,7 @@ const Project = () => {
               </div>
 
               <h3>{item.title}</h3>
+              <p>{item.desc}</p>
 
               <div className="portfolio_btns">
                 <a
