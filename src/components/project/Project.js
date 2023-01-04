@@ -14,10 +14,13 @@ const Project = () => {
               <div className="portfolio_item-image">
                 <img src={item.image} alt="" />
               </div>
-
-              <h3>{item.title}</h3>
-              <p>{item.desc}</p>
-
+              <div className="desc">
+                <h3>{item.title}</h3>
+                <p className="text">{item.desc}</p>
+                <p className="skills">
+                  <strong>Skills:</strong> {item.skills}
+                </p>
+              </div>
               <div className="portfolio_btns">
                 <a
                   className="btn"

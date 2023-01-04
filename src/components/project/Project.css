@@ -12,11 +12,21 @@
   overflow: hidden;
   border-bottom: 1px solid gray;
 }
-
-.portfolio_item p {
+/* .desc {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+} */
+.text {
   text-align: left;
   padding: 10px 10px;
   margin-top: -40px;
+  line-height: normal;
+  font-size: 0.9rem;
+}
+.skills {
+  text-align: left;
+  padding: 10px 10px;
   line-height: normal;
   font-size: 0.9rem;
 }
