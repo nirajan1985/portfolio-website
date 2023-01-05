@@ -1,6 +1,7 @@
 import r1 from "../../img/r1.jpg";
 import r2 from "../../img/r2.jpg";
 import r3 from "../../img/r3.jpg";
+import r4 from "../../img/r4.jpg";
 
 const Data = [
   {
@@ -9,7 +10,7 @@ const Data = [
     title: "Factpage fullstack app",
     desc: " A fully interactive webpage where users can browse interesting facts on category basis, upvote or downvote the fact and also add a new fact.",
     skills:
-      "React, Hooks, Javascript, HTML, CSS, Supabase, Responsive Typography, Git, Github, VsCode",
+      "React, Hooks, Javascript, HTML, CSS, Supabase, Api,  Responsive Typography, Git, Github, VsCode",
     demo_link: "https://factpage.netlify.app/",
     github_link: "https://github.com/nirajan1985/factpage-fullstack-app",
   },
@@ -31,6 +32,15 @@ const Data = [
       "React, Javascript, API (Exchange rates data api), VsCode, Git, Github",
     demo_link: "https://mycurrency-converter.vercel.app/",
     github_link: "https://github.com/nirajan1985/currencyconverter",
+  },
+  {
+    id: 4,
+    image: r4,
+    title: "Youtube Clone",
+    desc: " A working youtube app where users can search and play videos.",
+    skills: "React, Hooks, Props, Javascript, GoogleApi, Semantic UI",
+    demo_link: "https://video-hooks-ten.vercel.app/",
+    github_link: "https://github.com/nirajan1985/youtube_clone",
   },
 ];
 
