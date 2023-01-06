@@ -22,3 +22,7 @@ footer {
   display: flex;
   padding: 0.8rem;
 }
+.text {
+  text-align: center;
+  margin-top: 2px;
+}
