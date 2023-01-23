@@ -2,6 +2,7 @@ import r1 from "../../img/r1.jpg";
 import r2 from "../../img/r2.jpg";
 import r3 from "../../img/r3.jpg";
 import r4 from "../../img/r4.jpg";
+import r5 from "../../img/r5.jpg";
 
 const Data = [
   {
@@ -41,6 +42,15 @@ const Data = [
     skills: "React, Hooks, Props, Javascript, GoogleApi, Semantic UI",
     demo_link: "https://video-hooks-ten.vercel.app/",
     github_link: "https://github.com/nirajan1985/youtube_clone",
+  },
+  {
+    id: 5,
+    image: r5,
+    title: "Task Tracker",
+    desc: " A fullstack app for tracking tasks where users can add a new task, delete and modify it.",
+    skills: "Vue, CSS, Javascript, Typescript, JSON-server ",
+    demo_link: "https://taskplan.netlify.app/",
+    github_link: "https://github.com/nirajan1985/task-tracker",
   },
 ];
 
