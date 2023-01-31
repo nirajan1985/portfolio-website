@@ -3,6 +3,7 @@ import r2 from "../../img/r2.jpg";
 import r3 from "../../img/r3.jpg";
 import r4 from "../../img/r4.jpg";
 import r5 from "../../img/r5.jpg";
+import r6 from "../../img/r6.jpg";
 
 const Data = [
   {
@@ -18,11 +19,11 @@ const Data = [
   {
     id: 2,
     image: r2,
-    title: "Restaurant Menu",
-    desc: "A responsive app which can be used as a QR-code menu in restaurants. It allows users to browse different dishes category-wise (breakfast, dinner, dessert).",
-    skills: "HTML, CSS, ES6, React, Media Queries, Git, VsCode",
-    demo_link: "https://1947gandhi-menu.vercel.app/",
-    github_link: "https://github.com/nirajan1985/restaurant_menu",
+    title: "Notes App",
+    desc: "An app which allows users to make notes of tasks conveniently.",
+    skills: "React, Typescript, Bootstrap",
+    demo_link: "https://notesappmy.netlify.app/",
+    github_link: "https://github.com/nirajan1985/notesapp",
   },
   {
     id: 3,
@@ -47,10 +48,19 @@ const Data = [
     id: 5,
     image: r5,
     title: "Task Tracker",
-    desc: " A fullstack app for tracking tasks where users can add a new task, delete and modify it.",
+    desc: " An app for tracking tasks which can be used as a Reminder. Users can also add a new task, delete and modify it.",
     skills: "Vue, CSS, Javascript, Typescript, JSON-server ",
     demo_link: "https://taskplan.netlify.app/",
     github_link: "https://github.com/nirajan1985/task-tracker",
+  },
+  {
+    id: 6,
+    image: r6,
+    title: "Restaurant Menu",
+    desc: "A responsive app which can be used as a QR-code menu in restaurants. It allows users to browse different dishes category-wise (breakfast, dinner, dessert).",
+    skills: "HTML, CSS, ES6, React, Media Queries, Git, VsCode",
+    demo_link: "https://1947gandhi-menu.vercel.app/",
+    github_link: "https://github.com/nirajan1985/restaurant_menu",
   },
 ];
 
