@@ -11,6 +11,7 @@
 .portfolio_item-image {
   overflow: hidden;
   border-bottom: 1px solid gray;
+  height: 200px;
 }
 
 .text {
@@ -19,12 +20,15 @@
   margin-top: -40px;
   line-height: normal;
   font-size: 0.9rem;
+  height: 140px;
 }
 .skills {
   text-align: left;
   padding: 10px 10px;
+  margin-top: 5px;
   line-height: normal;
   font-size: 0.9rem;
+  height: 110px;
 }
 .desc h3 {
   text-align: center;
