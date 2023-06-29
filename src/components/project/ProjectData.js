@@ -4,6 +4,7 @@ import r3 from "../../img/r3.jpg";
 import r4 from "../../img/r4.jpg";
 import r5 from "../../img/r5.jpg";
 import r6 from "../../img/r6.jpg";
+import travel from "../../img/travel.jpg";
 
 const Data = [
   {
@@ -15,6 +16,15 @@ const Data = [
       "React, Hooks, Javascript, HTML, CSS, Supabase, Api,  Responsive Typography, Git, Github, VsCode",
     demo_link: "https://factpage.netlify.app/",
     github_link: "https://github.com/nirajan1985/factpage-fullstack-app",
+  },
+  {
+    id: 7,
+    image: travel,
+    title: "Travel Pack App",
+    desc: "An app which allows users to make a list of all goods required for travelling, and also keep the track of goods whether they are packed or not. ",
+    skills: "React, Javascript, CSS",
+    demo_link: "https://travel-list-six.vercel.app/",
+    github_link: "https://github.com/nirajan1985/travel-list",
   },
   {
     id: 2,
