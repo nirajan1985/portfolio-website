@@ -13,7 +13,7 @@ const Data = [
     title: "Factpage fullstack app",
     desc: " A fully interactive webpage where users can browse interesting facts on category basis, upvote or downvote the fact and also add a new fact.",
     skills:
-      "React, Hooks, Javascript, HTML, CSS, Supabase, Api,  Responsive Typography, Git, Github, VsCode",
+      "React, Hooks, Vanilla CSS, Supabase, Api,  Responsive Typography, Git, Github",
     demo_link: "https://factpage.netlify.app/",
     github_link: "https://github.com/nirajan1985/factpage-fullstack-app",
   },
@@ -67,7 +67,7 @@ const Data = [
     id: 6,
     image: r6,
     title: "Restaurant Menu",
-    desc: "A responsive app which can be used as a QR-code menu in restaurants. It allows users to browse different dishes category-wise (breakfast, dinner, dessert).",
+    desc: "A responsive restaurant QR-code menu. It allows users to browse different dishes category-wise (breakfast, dinner, dessert).",
     skills: "HTML, CSS, ES6, React, Media Queries, Git, VsCode",
     demo_link: "https://1947gandhi-menu.vercel.app/",
     github_link: "https://github.com/nirajan1985/restaurant_menu",

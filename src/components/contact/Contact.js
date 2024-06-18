@@ -15,7 +15,7 @@ const Contact = () => {
       "service_k6wr2oe",
       "template_5p4grak",
       form.current,
-      "xar10ss0k1gLGrsZr"
+      "3H8kDa1Mh_YSc_ANx"
     );
     alert("Message sent! You will be contacted soon!");
     e.target.reset();
@@ -29,23 +29,23 @@ const Contact = () => {
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className="contact_option-icon" />
-            <h4>Email</h4>
+            <h4>E-post</h4>
             <h5>nirajankarki1985@gmail.com</h5>
             <a
               href="mailto:nirajankarki1985@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              Send an Email
+              Send e-post
             </a>
           </article>
 
           <article className="contact_option">
             <FaMobileAlt className="contact_option-icon" />
-            <h4>Mobile</h4>
+            <h4>Mobil</h4>
             <h5>+47 93951099</h5>
             <a href="tel:+4793951099" target="_blank" rel="noreferrer">
-              Call me
+              Ring meg
             </a>
           </article>
 
@@ -58,29 +58,30 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              Send beskjed
             </a>
           </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Full Name" required />
-          <input type="email" name="email" placeholder="Email" required />
+          <input type="text" name="name" placeholder="Navn" required />
+          <input type="email" name="email" placeholder="E-post" required />
           <input
             type="tel"
             name="mobile"
-            placeholder="Mobile"
+            placeholder="Mobil"
             maxLength={8}
             required
           />
           <textarea
             name="message"
             rows="7"
-            placeholder="Message"
+            placeholder="Skriv beskjed her..."
             required
+            style={{ fontSize: "1rem" }}
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Send melding
           </button>
         </form>
       </div>
