@@ -3,8 +3,13 @@ import netcore from "../../img/netcore.png";
 import sql from "../../img/sql.png";
 import api from "../../img/api.png";
 import azure from "../../img/azure.png";
+import nodjs from "../../img/nodejs.jpg";
 
 const SkillList = [
+  {
+    skillName: "NodeJS",
+    logo: nodjs,
+  },
   {
     skillName: "C#",
     logo: csharp,
@@ -14,18 +19,12 @@ const SkillList = [
     logo: netcore,
   },
   {
-    skillName: "REST API",
-    logo: api,
-  },
-
-  {
     skillName: "SQL",
     logo: sql,
   },
-
   {
-    skillName: "Azure",
-    logo: azure,
+    skillName: "REST API",
+    logo: api,
   },
 ];
 export default SkillList;

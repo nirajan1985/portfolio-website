@@ -18,12 +18,12 @@ const SkillList = [
     logo: js,
   },
   {
-    skillName: "Typescript",
-    logo: ts,
-  },
-  {
     skillName: "React",
     logo: react,
+  },
+  {
+    skillName: "Typescript",
+    logo: ts,
   },
 ];
 export default SkillList;
