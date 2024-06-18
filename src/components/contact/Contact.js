@@ -15,7 +15,7 @@ const Contact = () => {
       "service_k6wr2oe",
       "template_5p4grak",
       form.current,
-      "bAYKbbjdxlwX7iTgu"
+      "W4QnYjGGQNhUZW79H"
     );
     alert("Message sent! You will be contacted soon!");
     e.target.reset();
