@@ -15,11 +15,6 @@ const App = () => {
     <>
       <Navbar />
       <Outlet />
-
-      {/* <Certificate />
-      <Skill />
-      <AlsoSkill />
-      <Contact /> */}
       <Footer />
     </>
   );
