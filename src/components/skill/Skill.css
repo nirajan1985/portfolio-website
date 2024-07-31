@@ -1,12 +1,17 @@
 #skills {
   background-color: white;
+  height: 85vh;
+  margin-bottom: -25px;
 }
 .skills_container {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
+  border: 2px solid black;
+  padding: 100px;
+  
 }
 .skills_container-item {
   display: flex;

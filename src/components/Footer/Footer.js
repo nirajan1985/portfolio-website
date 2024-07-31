@@ -1,18 +1,24 @@
 import React from "react";
 import FData from "./FooterData";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer_logo" rel="noreferrer">
+      <Link to="/" className="footer_logo">
         NIRAJAN
-      </a>
+      </Link>
 
       <div className="footer_container">
         {FData.map((item) => {
           return (
-            <a href={item.link} target="_blank" rel="noreferrer">
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              key={item.link}
+            >
               <img src={item.img} alt="" />
             </a>
           );

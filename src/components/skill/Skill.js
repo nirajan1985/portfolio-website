@@ -6,7 +6,7 @@ const Skill = () => {
   return (
     <section id="skills">
       <h1>Frontend</h1>
-
+      <h1>Ferdigheter</h1>
       <div className="container skills_container">
         {Sdata.map((item, index) => {
           return (
