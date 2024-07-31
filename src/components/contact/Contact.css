@@ -1,8 +1,13 @@
+#contact {
+height: 85vh;
+margin-bottom: -25px;
+}
 .contact_container {
   width: 58%;
   display: grid;
   grid-template-columns: 32% 58%;
   gap: 12%;
+  
 }
 .contact_options {
   display: flex;
