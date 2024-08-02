@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer_logo" rel="noreferrer">
+      <a href="home#" className="footer_logo" rel="noreferrer">
         NIRAJAN
       </a>
 

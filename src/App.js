@@ -15,7 +15,6 @@ const App = () => {
       <Navbar />
       <Intro />
       <Project />
-
       <Certificate />
       <Skill />
       <AlsoSkill />

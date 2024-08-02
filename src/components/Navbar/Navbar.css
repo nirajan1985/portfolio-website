@@ -11,6 +11,8 @@
 }
 .logo {
   font-size: 28px;
+  color:black;
+  
 }
 .nav-links {
   display: flex;

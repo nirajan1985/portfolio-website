@@ -45,6 +45,9 @@ section h1 {
   background-color: #59b256;
   color: white;
 }
+.btn:hover {
+  background-color: green;
+}
 
 img {
   display: block;
