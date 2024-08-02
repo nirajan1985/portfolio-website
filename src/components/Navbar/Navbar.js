@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -14,21 +13,21 @@ const Navbar = () => {
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setIsMobile(false)}
       >
-        <li>
-          <Link to="/">HOME</Link>
-        </li>
-
-        <li>
-          <Link to="/certificate">SERTIFISERING</Link>
-        </li>
-
-        <li>
-          <Link to="/skill">FERDIGHETER</Link>
-        </li>
-
-        <li>
-          <Link to="/contact">KONTAKT</Link>
-        </li>
+        <a href="#home">
+          <li>HOME</li>
+        </a>
+        <a href="#project">
+          <li>PROSJEKT</li>
+        </a>
+        <a href="#certificate">
+          <li>SERTIFISERING</li>
+        </a>
+        <a href="#skills">
+          <li>FERDIGHETER</li>
+        </a>
+        <a href="#contact">
+          <li>KONTAKT</li>
+        </a>
       </ul>
 
       <button
