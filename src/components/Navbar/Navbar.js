@@ -9,9 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="container nav_container">
-      <Link to="/">
-        <h3 className="logo">NIRAJAN KARKI</h3>
-      </Link>
+      <h3 className="logo">NIRAJAN KARKI</h3>
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setIsMobile(false)}

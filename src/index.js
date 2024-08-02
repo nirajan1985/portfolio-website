@@ -5,6 +5,7 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Certificate from "./components/Certificate/Certificate";
 import Skill from "./components/skill/Skill";
+import AlsoSkill from "./components/AlsoSkill/AlsoSkill";
 import Contact from "./components/contact/Contact";
 import Error from "./components/Error";
 import Intro from "./components/intro/Intro";
@@ -31,6 +32,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/skill",
         element: <Skill />,
+      },
+      {
+        path: "/alsoSkill",
+        element: <AlsoSkill />,
       },
       {
         path: "/contact",

@@ -1,8 +1,5 @@
 #certificate {
   background-color: rgb(224, 222, 218);
-  height: 85vh;
-  margin-bottom: -25px;
-
 }
 .certificate_container {
   display: flex;

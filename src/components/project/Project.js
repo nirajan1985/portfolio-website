@@ -10,7 +10,7 @@ const Project = () => {
       <div className="container portfolio_container">
         {Data.map((item) => {
           return (
-            <article className="portfolio_item" key={item.id}>
+            <article className="portfolio_item">
               <div className="portfolio_item-image">
                 <img src={item.image} alt="" />
               </div>

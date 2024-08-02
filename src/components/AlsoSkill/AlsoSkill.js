@@ -1,16 +1,16 @@
 import React from "react";
-import "./Skill.css";
-import Sdata from "./SkillData";
+import "./AlsoSkill.css";
+import Sdata from "./AlsoSkillData";
 
-const Skill = () => {
+const AlsoSkill = () => {
   return (
-    <section id="skills">
-      <h1>Frontend</h1>
+    <section id="alsoskill">
+      <h1 className="heading">Backend</h1>
 
-      <div className="container skills_container">
+      <div className="container also_container">
         {Sdata.map((item, index) => {
           return (
-            <div className="skills_container-item" key={item.index}>
+            <div className="also_container-item" key={item.index}>
               <div>
                 <img src={item.logo} alt="" />
               </div>
@@ -23,4 +23,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default AlsoSkill;
