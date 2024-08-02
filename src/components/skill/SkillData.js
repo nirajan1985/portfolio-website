@@ -3,6 +3,9 @@ import css from "../../img/css.png";
 import js from "../../img/js.png";
 import react from "../../img/react.png";
 import ts from "../../img/ts.png";
+import tailwind from "../../img/tailwind.png";
+import primereact from "../../img/primereact.png";
+import material from "../../img/material.png";
 
 const SkillList = [
   {
@@ -24,6 +27,18 @@ const SkillList = [
   {
     skillName: "Typescript",
     logo: ts,
+  },
+  {
+    skillName: "Tailwind",
+    logo: tailwind,
+  },
+  {
+    skillName: "Primereact",
+    logo: primereact,
+  },
+  {
+    skillName: "Material UI",
+    logo: material,
   },
 ];
 export default SkillList;
