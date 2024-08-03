@@ -5,10 +5,6 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="home#" className="footer_logo" rel="noreferrer">
-        NIRAJAN
-      </a>
-
       <div className="footer_container">
         {FData.map((item) => {
           return (

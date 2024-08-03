@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="container nav_container">
-      <a href="#home">
+      <a href="#">
         <h3 className="logo">NIRAJAN KARKI</h3>
       </a>
       <ul
