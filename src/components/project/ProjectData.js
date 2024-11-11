@@ -1,4 +1,3 @@
-import r1 from "../../img/r1.jpg";
 import r2 from "../../img/r2.jpg";
 import r3 from "../../img/r3.jpg";
 import r4 from "../../img/r4.jpg";
@@ -7,15 +6,6 @@ import r6 from "../../img/r6.jpg";
 import travel from "../../img/travel.jpg";
 
 const Data = [
-  {
-    id: 1,
-    image: r1,
-    title: "Factpage fullstack app",
-    desc: " A fullstack responsive app for browsing interesting facts on category basis, upvote or downvote the fact, and also add a new fact.",
-    skills: "React, Hooks, Vanilla CSS, Supabase, Api,  Media queries",
-    demo_link: "https://factpage.netlify.app/",
-    github_link: "https://github.com/nirajan1985/factpage-fullstack-app",
-  },
   {
     id: 7,
     image: travel,
