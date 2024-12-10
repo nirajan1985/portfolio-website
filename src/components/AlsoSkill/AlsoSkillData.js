@@ -7,16 +7,16 @@ import nodjs from "../../img/nodejs.jpg";
 
 const SkillList = [
   {
-    skillName: "NodeJS",
-    logo: nodjs,
-  },
-  {
     skillName: "C#",
     logo: csharp,
   },
   {
     skillName: ".NET Core",
     logo: netcore,
+  },
+  {
+    skillName: "NodeJS",
+    logo: nodjs,
   },
   {
     skillName: "SQL",

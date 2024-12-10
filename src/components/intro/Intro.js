@@ -12,7 +12,7 @@ const Intro = () => {
             <div className="i-title-item">Frontend</div>
             <div className="i-title-item">Backend</div>
             <div className="i-title-item">React</div>
-            <div className="i-title-item">NodeJS</div>
+            <div className="i-title-item">C#/.Net</div>
           </div>
         </div>
       </div>
