@@ -11,7 +11,7 @@ const SkillList = [
     logo: csharp,
   },
   {
-    skillName: ".NET Core",
+    skillName: ".NET",
     logo: netcore,
   },
   {
