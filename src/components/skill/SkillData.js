@@ -21,12 +21,12 @@ const SkillList = [
     logo: js,
   },
   {
-    skillName: "React",
-    logo: react,
-  },
-  {
     skillName: "Typescript",
     logo: ts,
+  },
+  {
+    skillName: "React",
+    logo: react,
   },
   {
     skillName: "Tailwind",

@@ -15,16 +15,16 @@ const SkillList = [
     logo: netcore,
   },
   {
-    skillName: "NodeJS",
-    logo: nodjs,
-  },
-  {
     skillName: "SQL",
     logo: sql,
   },
   {
     skillName: "REST API",
     logo: api,
+  },
+  {
+    skillName: "Azure",
+    logo: azure,
   },
 ];
 export default SkillList;
