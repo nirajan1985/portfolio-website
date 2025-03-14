@@ -6,6 +6,8 @@ import ts from "../../img/ts.png";
 import tailwind from "../../img/tailwind.png";
 import primereact from "../../img/primereact.png";
 import material from "../../img/material.png";
+import reactnative from "../../img/reactnative.png";
+import figma from "../../img/figma.png";
 
 const SkillList = [
   {
@@ -29,6 +31,10 @@ const SkillList = [
     logo: react,
   },
   {
+    skillName: "React Native",
+    logo: reactnative,
+  },
+  {
     skillName: "Tailwind",
     logo: tailwind,
   },
@@ -39,6 +45,10 @@ const SkillList = [
   {
     skillName: "Material UI",
     logo: material,
+  },
+  {
+    skillName: "Figma",
+    logo: figma,
   },
 ];
 export default SkillList;
